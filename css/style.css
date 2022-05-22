@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav {
+    font-family: 'Fjalla One';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00748D;
+    padding: 1vh;
+    background-image: url("img/path.png");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+}
+
+nav .entete {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+
+
+}
+
+nav .entete img {
+    width: 30vh;
+
+
+
+}
+
+nav p {
+
+
+    color: white;
+    font-size: 25px;
+    margin: 0;
+
+
+
+}
+
+/* NAV */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    width: 60vh;
+    z-index: 3;
+    justify-content: space-between;
+
+}
+
+
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    display: block;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: #00748D;
+
+}
+
+/* MAIN */
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+h3 {
+    color: #00748D;
+    text-align: center;
+}
+
+h2 {
+    color: #00748D;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*header*/
+
+
+
+
+.container p {
+    font-size: 17px;
+
+}
+
+/*MAIN*/
+
+
+/*section1*/
+.section1 {
+    background-image: url('../img/bg-header.jpg');
+    width: 80%;
+    height: 60vh;
+
+    margin-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1 h1 {
+    background-color: #CB8606;
+    color: white;
+    padding: 1%;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Fjalla One';
+    font-weight: 200;
+}
+
+.section1 h2 {
+    background-color: white;
+    color: #00748D;
+    padding: 0.2%;
+    font-size: 17px;
+    margin-top: 1em;
+    font-family: 'Fjalla One';
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+/*section2*/
+.section2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section2 article {
+    margin: 0 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.section2 article a {
+    text-decoration: none;
+    color: white;
+    background-color: #00748D;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* .section2 .article4 {
+    margin-right: 0;
+} */
+
+/*section3*/
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section3 article {
+    margin: 0 1em 10em 1em;
+    border: 1px solid #00748D;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* CONTAINER H3 */
+
+
+.container h3 {
+    font-size: 20px;
+    font-family: 'Fjalla One';
+}
+
+.container h3::before {
+    content: "-";
+    color: #CB8606;
+    font-family: 'Fjalla One';
+    padding-right: 5px;
+}
+
+.container h3::after {
+    content: "-";
+    color: #CB8606;
+    font-family: 'Fjalla One';
+    padding-left: 5px;
+}
+
+/* ICONE  */
+.entete {
+    text-align: center;
+}
+
+.entete i {
+    color: white;
+    background-color: #CB8606;
+    font-size: 3em;
+    padding: 0.5em;
+
+}
+
+/* CONTAINER H4 */
+
+.container h4 {
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    color: #414141;
+}
+
+/* EN SAVOIR PLUS */
+.container a {
+    font-size: 15px;
+    font-family: 'Nunito';
+}
+
+.container a:hover {
+    background-color: #CB8606;
+    color: white;
+}
+
+.container p {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Nunito';
+    color: #414141;
+}
+
+
+/* FOOTER ARCHI DESIGN */
+
+.reseaux a {
+    color: white;
+    font-size: 4vh;
+}
+
+.reseaux i {
+    margin-left: 20px;
+}
+
+.reseaux i:hover {
+    color: #CB8606;
+
+    transform: scale(1.2);
+}
+
+
+
+.footer1 {
+    font-family: 'Fjalla One';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00748D;
+    padding: 3vh;
+    top: 0;
+    background-image: url("../img/path.png");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+
+}
+
+.logo1 {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.footer1 p {
+
+    color: white;
+    font-size: 25px;
+    margin: 0;
+
+}
+
+/* FOOTER 3WA */
+
+.wa {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #444444;
+    color: white;
+    padding: 2%;
+}
+
+.wa p {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: sans-serif
+}
+
+.wa img {
+    max-width: 4em;
+    margin-top: 1em;
+}
+
+
+@media screen and (max-width:1200px) {
+    .section2 {
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+    }
+
+    .section2 article {
+        width: 40%;
+    }
+
+    .section3 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .section3 article {
+        width: 35%;
+    }
+
+    .section3 img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .section2 {
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+    }
+
+    .section2 article {
+        width: 80%;
+    }
+
+
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        justify-content: center;
+    }
+
+    ul a {
+        font-size: 20px;
+    }
+
+    /* nav {
+        width: 100%;
+    } */
+
+    .entete img {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .entete p {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .footer1 img {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .footer1 p {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+}

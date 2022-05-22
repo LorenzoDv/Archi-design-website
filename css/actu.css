@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+/* HEADER */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+main {
+    display: flex;
+
+}
+
+nav {
+    font-family: 'Fjalla One';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00748D;
+    padding: 1vh;
+    background-image: url("../img/path.png");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+}
+
+nav .entete {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+
+
+}
+
+nav .entete img {
+    width: 30vh;
+
+
+
+}
+
+nav p {
+
+
+    color: white;
+    font-size: 25px;
+    margin: 0;
+
+
+
+}
+
+/* NAV */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    width: 60vh;
+    z-index: 3;
+    justify-content: space-between;
+
+}
+
+
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    display: block;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: #00748D;
+
+}
+
+/* MAIN */
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+h3 {
+    color: #00748D;
+    text-align: center;
+}
+
+h2 {
+    color: #00748D;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*header*/
+
+
+
+
+/*MAIN*/
+.section img {
+    float: left;
+    width: 40%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+
+
+}
+
+.article1 {
+    margin: 0 0 5% 0;
+}
+
+.section article a {
+    text-decoration: none;
+    color: white;
+    background-color: #00748D;
+    padding: 10px;
+
+
+}
+
+.section {
+    width: 60%;
+    margin: 0;
+}
+
+aside {
+    margin: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.container {
+    display: flex;
+    margin-left: 5em;
+}
+
+
+main h1 {
+    text-align: center;
+    color: #CB8606;
+    font-family: 'Fjalla One';
+    font-size: 25px;
+    padding: 1%;
+    text-transform: uppercase;
+    margin: 5% 0 2% 0;
+}
+
+main h1::after {
+    content: "-";
+    color: #00748D;
+    padding-left: 10px;
+}
+
+main h1::before {
+    content: "-";
+    color: #00748D;
+    padding-right: 10px;
+}
+
+
+/* CONTAINER H3 */
+
+
+.container h3 {
+    font-size: 20px;
+    font-family: 'Fjalla One';
+}
+
+.container h3::before {
+    content: "-";
+    color: #CB8606;
+    font-family: 'Fjalla One';
+    padding-right: 5px;
+}
+
+.container h3::after {
+    content: "-";
+    color: #CB8606;
+    font-family: 'Fjalla One';
+    padding-left: 5px;
+}
+
+
+/* CONTAINER H4 */
+
+.container h4 {
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    color: #414141;
+}
+
+/* EN SAVOIR PLUS */
+.container a {
+    font-size: 15px;
+    font-family: 'Nunito';
+
+}
+
+.container p {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Nunito';
+    color: #414141;
+    line-height: 2em;
+}
+
+
+
+.reseaux a {
+    color: white;
+    font-size: 4vh;
+}
+
+.reseaux i {
+    margin-left: 20px;
+}
+
+footer {
+    z-index: 99;
+}
+
+
+.footer1 {
+    font-family: 'Fjalla One';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00748D;
+    padding: 4vh;
+    top: 0;
+    background-image: url("../img/path.png");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+
+}
+
+.logo1 {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.footer1 p {
+
+    color: white;
+    font-size: 25px;
+    margin: 0;
+
+}
+
+.temoignage {
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    width: 40%;
+    height: 25em;
+    margin-top: 4em;
+    overflow: auto;
+
+
+
+
+}
+
+.temoignage::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.temoignage::-webkit-scrollbar {
+    width: 7px;
+    /* width of the entire scrollbar */
+}
+
+.temoignage::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+
+}
+
+.temoignage h2 {
+    text-align: center;
+    font-family: 'Fjalla One';
+    color: #00748D;
+}
+
+.temoignage h2::after {
+    content: "-";
+    color: #CB8606;
+    padding-left: 5px;
+}
+
+.temoignage h2::before {
+    content: "-";
+    color: #CB8606;
+    padding-right: 5px;
+}
+
+.p1 {
+    display: flex;
+
+}
+
+.color {
+    color: #00748D;
+    display: flex;
+
+}
+
+.p1::before {
+    content: url("../img/quote.png");
+    float: left;
+    margin-right: 15px;
+}
+
+.color::before {
+    content: url("../img/client.png");
+    float: left;
+    margin-right: 15px;
+
+}
+
+hr {
+    height: 3px;
+    background-color: #CB8606;
+    border: none;
+    width: 6em;
+}
+
+/* DERNIER TWEETS */
+.dertwet {
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    width: 50%;
+    height: 15em;
+
+    margin-top: 5em;
+
+
+
+
+
+}
+
+.dertwet h2 {
+    text-align: center;
+    font-family: 'Fjalla One';
+    color: #00748D;
+}
+
+.dertwet h2::after {
+    content: "-";
+    color: #CB8606;
+    padding-left: 5px;
+}
+
+.dertwet h2::before {
+    content: "-";
+    color: #CB8606;
+    padding-right: 5px;
+}
+
+.dertwet ul {
+    padding: 0;
+}
+
+.dertwet ul li {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1.7em;
+
+
+}
+
+.dertwet ul li::before {
+    content: url("../img/circle.png");
+    float: left;
+    margin-right: 20px;
+
+}
+
+.dertwet::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.dertwet::-webkit-scrollbar {
+    width: 7px;
+    /* width of the entire scrollbar */
+}
+
+.dertwet::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+
+}
+
+
+
+/* FOOTER 3WA */
+
+.wa {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #444444;
+    color: white;
+    padding: 2%;
+}
+
+.wa p {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: sans-serif
+}
+
+.wa img {
+    max-width: 4em;
+    margin-top: 1em;
+}
+
+@media screen and (max-width:1200px) {
+    .section {
+        width: 100%;
+
+
+    }
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2%;
+
+    }
+
+    aside {
+        width: 100%;
+
+
+    }
+
+    .footer1 {
+        position: relative;
+        z-index: 2;
+    }
+
+    .dertwet {
+
+        z-index: 1;
+        width: 60%;
+
+    }
+
+    .temoignage {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:700px) {
+    .temoignage {
+        width: 80%;
+
+    }
+
+    .dertwet {
+        width: 80%;
+
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    ul a {
+        font-size: 20px;
+    }
+
+    /* nav {
+        width: 100%;
+    } */
+
+    .entete img {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .entete p {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .footer1 img {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .footer1 p {
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    .article1 img {
+        width: 100%;
+    }
+
+    .article2 img {
+        width: 100%;
+    }
+
+    .article1 a {
+        position: relative;
+        left: 38%;
+        transform: translate(-50%);
+    }
+
+    .article2 a {
+        position: relative;
+        left: 38%;
+        transform: translate(-50%);
+    }
+}
