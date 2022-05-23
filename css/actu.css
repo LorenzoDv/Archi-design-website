@@ -267,6 +267,8 @@ footer {
     background-image: url("../img/path.png");
     background-repeat: repeat-x;
     background-position-y: bottom;
+    position: relative;
+    z-index: 2;
 
 }
 
